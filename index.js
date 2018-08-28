@@ -7,7 +7,7 @@ const returnFirstTwoDrivers = function (drivers) {
 }
 
 const returnLastTwoDrivers = function (drivers) {
-  let firstAndSecond = []
+  let lastTwo = []
   firstAndSecond[0] = drivers[0]
   firstAndSecond[1] = drivers[1]
   return firstAndSecond
