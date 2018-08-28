@@ -7,8 +7,5 @@ const returnFirstTwoDrivers = function (drivers) {
 }
 
 const returnLastTwoDrivers = function (drivers) {
-  let lastTwo = []
-  lastTwo[0] = drivers[-2]
-  lastTwo[1] = drivers[-1]
-  return lastTwo
+  return drivers.slice()
 }
